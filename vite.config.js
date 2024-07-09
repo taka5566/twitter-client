@@ -9,7 +9,7 @@ export default defineConfig({
     port: 10000,
     proxy:{
       '/api':{
-        target:'https://twitter-client-ivfp.onrender.com',
+        target:'https://twitter-server-su3i.onrender.com',
         changeOrigin: true,
       }
     }
